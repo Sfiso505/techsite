@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TechTuned</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider"></span>
+        </label>
+    </header>
+    
+    <div class="container" id="home">
+        <div class="message-container">
+            <h1>Hello, I'm Emmanuel Sifiso Nkosi</h1>
+            <p>
+                I’m a data scientist who didn’t take the traditional path not by choice, but by circumstance. What I lacked in opportunity, I made up for in grit, scholarships, and a relentless drive to prove I belonged in this space.
+                My journey changed when a visionary manager at Telkom saw past the absence of a degree and chose to believe in my potential. She gave me the space to rise, and I made sure I never disappointed her or myself.
+                I’m now proudly carving out my place in the tech world, and while I build tools, apps, and systems, I’m also building a future. A degree is still on my radar not for validation, but for the promise I made to myself, to keep going, no matter the pace, until I walk across that graduation stage.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="image.png" alt="Your Name" class="profile-pic">
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <div class="video-container">
+            <video autoplay loop muted width="400">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="message-container">
+            <h1>My Journey</h1>
+            <p>
+                It was never easy and honestly, it was never promising. I didn’t have funding for varsity, and I watched opportunities slip past, one by one. But even without a clear path, I never let go of the vision I had for my future. I believed in the power of industry certifications and learnerships, and I used every chance I got to move forward.
+
+                I started with an Information Technology learnership, where I developed interest in coding. That led to a Data Science scholarship funded by BCX, followed by an internship with them. When the programme ended, I was absorbed into a full-time role at the Telkom Corporate Centre as a Junior Data Scientist.
+
+                That role pushed me further than I expected not just technically, but personally. It challenged me to lead interns on real-world projects like Acoustic Modeling and learning what it means to guide while still growing.
+
+                Today, I’m a Data Science Analyst at Wits Enterprise based at University of the Witwatersrand. I’m part of a team focused on innovation across industries, I'm growing more than ever before, and I’m still building, still learning.
+
+                Off the clock, you’ll probably find me where I’m most alive, on the soccer field, making music, gaming, or calling the next shot on a pool table.
+            </p>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="skills-title-container">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages & Frameworks</h3>
+                    <p>Python, SQL, JavaScript, HTML/CSS, Flask, FastAPI, React, Streamlit</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Libraries & Tools</h3>
+                    <p>Pandas, Matplotlib, Plotly, Scikit-learn, FAISS, UMAP, HDBSCAN</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI & NLP Models</h3>
+                    <p>BERTopic, LLaMA2, LLaMA3, SentenceTransformers</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Cloud & Data</h3>
+                    <p>Azure SQL, AWS Foundations, Data Warehousing</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-link"></i>
+                    <h3>APIs & Integration</h3>
+                    <p>REST APIs, Chatbot Development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Version Control</h3>
+                    <p>Git</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Visualization</h3>
+                    <p>Power BI, Plotly</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users-cog"></i>
+                    <h3>Leadership</h3>
+                    <p>Guiding interns in Acoustic Modeling projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div id="experience">
+        <div class="experience-title-container">
+            <h1>Experience</h1>
+        </div>
+    <div class="experience-container">
+
+        <div class="experience-card">
+            <h3>Data Science Analyst <span>// University of the Witwatersrand (TISL)</span></h3>
+            <p><strong>Dec 2024 – Present</strong></p>
+            <ul>
+                <li>Built a full-stack Telkom Executive Dashboard using Flask, HTML/CSS/JS for displaying business KPIs.</li>
+                <li>Integrated Google Gemini API chatbot with dynamic prompt injection and response configuration.</li>
+                <li>Developed a CSV insights platform for real-time upload, parsing, and Chart.js visualizations.</li>
+                <li>Built a PDF Research Assistant Web App (FastAPI + FAISS + React + LLaMA3) for intelligent document QA.</li>
+                <li>Designed and deployed BERTopic NLP pipeline with UMAP, HDBSCAN, KeyBERT, and LLaMA2 for social media topic clustering and labeling.</li>
+                <li>Created a Streamlit-powered dashboard to visualize post frequencies (daily/monthly) and trends using Azure-hosted SQL data.</li>
+                <li>Performed advanced Matplotlib-based exploration for tracking engagement spikes, post profiling, and temporal sentiment patterns.</li>
+            </ul>
+        </div>
+        
+        <div class="experience-card">
+            <h3>Data Scientist <span>// Telkom</span></h3>
+            <p><strong>May 2024 – Present</strong></p>
+            <ul>
+                <li>Gathering datasets, performing data preprocessing, and feature engineering to prepare data for predictive modeling.</li>
+                <li>Developing and deploying machine learning models to generate actionable insights and predictions.</li>
+                <li>Exploring and adapting new technologies, keeping up with industry advancements, and applying them to solve complex problems.</li>
+                <li>Conducting in-depth research into industry trends to inform strategies and innovations.</li>
+                <li>Building real-time dashboard for data-driven decision-making and system monitoring.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-card">
+            <h3>Data Scientist Intern <span>// BCX (Business Connexion)</span></h3>
+            <p><strong>August 2023 – December 2023</strong></p>
+            <ul>
+                <li>Processed and analyzed large datasets to extract valuable insights.</li>
+                <li>Developed and deployed deep learning models for NLP Speech Sentiment Analysis.</li>
+                <li>Collaborated in a team to fine-tune machine learning models.</li>
+                <li>Produced reports and contributed to project documentation.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-card">
+            <h3>Graphic Designer <span>// BP Printing</span></h3>
+            <p><strong>April 2022 – November 2022</strong></p>
+            <ul>
+                <li>Designed various marketing materials, including branding and promotional items for clients using CorelDraw, Adobe Illustrator, and Photoshop.</li>
+                <li>Operated a laser cutter machine to accurately prepare and cut fabrics for sewing and tablet branding, maintaining precision in design execution.</li>
+                <li>Operated large-format sublimation printing machines for transferring designs onto fabrics, ensuring color accuracy and print quality.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-card">
+            <h3>IT End User Intern <span>// Davis and Dean</span></h3>
+            <p><strong>March 2021 – December 2021</strong></p>
+            <ul>
+                <li>Provided technical support to end-users, resolving hardware and software issues.</li>
+                <li>Assisted in the installation, configuration, and maintenance of IT equipment and systems.</li>
+                <li>Organized Teams meetings, demonstrating proficiency with Excel, Outlook, and other Microsoft Office tools.</li>
+            </ul>
+        </div>
+    </div>
+
+
+<!-- Project Section with only EmBot -->
+<div id="projects" class="portfolio">
+  <div class="projects-title-container">
+    <h1>Projects</h1>
+  </div>
+
+  <div class="projects-container">
+    <!-- EmBot AI Assistant Project -->
+    <div class="project-card">
+      <div class="project-description">
+        <h2>EmBot - AI Assistant</h2>
+        <p>
+          EmBot is a powerful AI chatbot that allows users to upload PDF documents and ask questions about their content.
+          Built using FastAPI, FAISS, SentenceTransformers, and LLaMA3, EmBot is designed for intelligent document Q&A,
+          with a clean React frontend and modern UX features like dark mode, chat bubbles, PDF preview, and file uploads.
+        </p>
+      </div>
+
+      <video autoplay muted loop playsinline class="project-video" onclick="this.requestFullscreen()">
+        <source src="EmBotAI Assistant.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="project-button-container">
+        <a href="https://embot-ycjn.onrender.com" target="_blank" class="button">🚀 Try EmBot Live</a>
+    </div>
+  </div>
+</div>
+
+
+     
+        
+    <section id="education" class="education-section">
+        <div class="education-title-container">
+            <h1>Education</h1>
+        </div>
+    
+        <div class="education-container">
+            <div class="education-card">
+                <h3>Bachelor of Computer and Information Science</h3>
+                <p><strong>Varsity College(Distance Learning)</strong><br>
+                Expected Start: February 2025</p>
+                <ul>
+                    <li>Mathematical Principles for Computer Science</li>
+                    <li>Programming</li>
+                    <li>Information Systems</li>
+                    <li>IT Professional Practice</li>
+                    <li>Computer Networks</li>
+                    <li>Principles of Security</li>
+                    <li>Cloud Development</li>
+                    <li>Introduction to Research for ICT</li>
+                </ul>
+            </div>
+    
+            <div class="education-card">
+                <h3>IT System Development(Data Science) NQF 5</h3>
+                <p><strong>Explore AI Academy</strong><br>
+                January 2023 – August 2023</p>
+                <ul>
+                    <li>Data Visualization (Power BI)</li>
+                    <li>Python and SQL for Data Science</li>
+                    <li>Machine Learning (Supervised and Unsupervised)</li>
+                    <li>Advanced Regression and Classification Models</li>
+                    <li>AWS Certified Cloud Practitioner Foundations</li>
+                </ul>
+            </div>
+    
+            <div class="education-card">
+                <h3>IT End User Computing</h3>
+                <p><strong>Proserv</strong><br>
+                January 2021 – March 2021</p>
+                <ul>
+                    <li>Introduction to ICT</li>
+                    <li>Microsoft Office (Spreadsheet Applications - Excel)</li>
+                    <li>Electronic Mail Applications (Outlook)</li>
+                    <li>Report Writing</li>
+                    <li>Software Troubleshooting</li>
+                </ul>
+            </div>
+    
+            <div class="education-card">
+                <h3>Matric/Grade 12</h3>
+                <p><strong>Vukuzame</strong><br>
+                2019</p>
+                <ul>
+                    <li>Life Science</li>
+                    <li>Physical Science</li>
+                    <li>Mathematics</li>
+                    <li>Computer Applications Technology (CAT)</li>
+                    <li>English</li>
+                    <li>Life Orientation</li>
+                    <li>Home Language</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <section>
+    <footer class="footer">
+    <div class="footer-content">
+        <p>Thanks for Visiting. Stay in touch</p>
+        <p>
+            <i class="fas fa-map-marker-alt"></i> South Africa, Gauteng •
+            <i class="fas fa-phone"></i> (+27) 69 525 5369 •
+            <i class="fas fa-envelope"></i> <a href="mailto:emmanuelnkossi@outlook.com">emmanuelnkossi@outlook.com</a>
+        </p>
+        <p>
+            <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/emmanuel-nkosi">LinkedIn</a> •
+            <i class="fab fa-github"></i> <a href="https://github.com/Sfiso505">GitHub</a>
+        </p>
+        <p><a href="Emmanuel Sifiso Nkosi.pdf" download class="cv-download">Download CV</a></p>
+
+    </div>
+            
+
+    <!-- Feedback Form -->
+    <div class="feedback-form">
+        <h2>Feedback</h2>
+        <form action="https://formspree.io/f/xwpkbqnj" method="POST">
+            <textarea name="feedback" placeholder="Your feedback..." required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+    <footer>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Emmanuel Sifiso Nkosi. All Rights Reserved.</p>
+    </div>
+    </footer>
+        
+    </section>
+    
+    
+</div>
+
+<!-- In your HTML file before </body> -->
+<script>
+    const hoverSound = new Audio("hover-sound.mp3");
+    document.querySelectorAll(".button").forEach(btn => {
+      btn.addEventListener("mouseenter", () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play();
+      });
+    });
+  </script>
+  
+
+</body>
+</html>
